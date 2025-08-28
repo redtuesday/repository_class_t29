@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav .header-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .main-flex-container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        aside {
+            min-width: 220px;
+        }
+
+        .formacao,
+        #experiencia,
+        .video,
+        .habilidades {
+            text-align: center;
+        }   
+
+        .conteudo {
+            top: 175px; 
+            left: 0;
+            width: 195px;
+            padding: 20px;
+            height: 100%;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        
+        .formacao {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .formacao ul {
+            list-style-type: square;
+            padding-left: 0;
+            display: inline-block;
+            text-align: left;
+        }
+
+        section h2 {
+            text-align: center;
+        }
+
+        .sobre {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #experiencia {
+            text-align: center;
+            padding: 20px;
+        }   
+
+        .video {
+            display: flex; 
+            justify-content: center;
+        }
+
+        .habilidades {
+            padding: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1><strong>Currículo</strong></h1>
+        <nav>
+            <div class="header-container">
+                <h3><p><a href="#contato">Contato</a></p></h3> |        
+                <h3><a href="#formacao">Formação</a></h3> |
+                <h3><a href="#experiencia">Experiência</a></h3>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="main-flex-container">
+        <aside>
+            <div class="conteudo">    
+                <section id="contato">
+                    <h2>Contato</h2>
+                    <p><i>E-mail: wiggerssamuel2005@gmail.com</i></p>
+                    <p><i>Linkedn: <br>samuelwiggers</i></p>
+                    <p><i>Telefone: <br>(47) 9999-9999</i></p>
+                </section>
+            </div>
+        </aside>
+        
+        <article>
+            <section class="sobre-section">
+                <h2>Sobre Mim</h2>
+                <div class="sobre">
+                    <p>Meu nome é Samuel Wiggers, tenho 19 anos e sou estudante de Sistema de Informação na UNIDAVI. Tenho interesse em desenvolvimento web e estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades. Sou dedicado, proativo e gosto de trabalhar em equipe.</p>
+                </div>
+            </section>
+            
+            <section class="formacao" id="formacao">
+                <div class="list-formacao">
+                    <h2>Formação</h2>
+                    <ul>
+                        <li>Ensino Médio - Colégio Dom Bosco - Concluído em 2022</li>
+                        <li>Técnico em Informática - ETEC - Concluído em 2022</li>
+                        <li>Graduação em Sistemas de Informação - UNIDAVI - Em andamento</li>
+                    </ul>
+                </div>
+                <div class="image-formacao">
+                    <img src="https://media.tenor.com/TYGaQfylEvQAAAAe/auque-7-dias-tarde.png" alt="teste" width="300px" height="200px">
+                </div>
+            </section>
+            
+            <section id="experiencia-section">
+                <h2>Experiência</h2>
+                <div id="experiencia">
+                    <p>Desenvolvedor Júnior - IPM Sistemas (2024-?)</p>
+                    <p>Estágio - Analista de Qualidade - IPM Sistemas (2024-2024)</p>
+                    <audio controls>
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+            </section>
+            
+            <section id="video-section">
+                <h2>Vídeo</h2>
+                <div class="video">
+                    <video width="320" height="240" controls>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Habilidades</h2>
+                <ul class="habilidades">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python, Java</li>
+                    <li>Banco de Dados (MySQL, PostgreSQL)</li>
+                    <li>Git e GitHub</li>
+                </ul>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
