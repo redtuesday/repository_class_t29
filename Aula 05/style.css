@@ -1,0 +1,22 @@
+.calculator-body{
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.value-calculation{
+    padding: 10px;
+}
+
+#result{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button{
+    width: 28px;
+}
