@@ -13,6 +13,9 @@ Neste repositório, serão adicionados todos os arquivos das atividades realizad
 - [Aula 2](#aula2)
 -Estrutura hierárquica e desenvolvimento de curriculo
 
+- [Aula 3](#aula3)
+-Tables e formulário em HTML
+
 ## Instalação
 Passos para instalar e configurar o projeto:
 
