@@ -13,7 +13,7 @@
             "request": "launch",
             "url":
 
-            "http://localhost/php/${fileBasename}?XDEBUG_SESSION_START=XXXXXX",
+            "http://localhost:8080/repository_class_t29/${fileBasename}?XDEBUG_SESSION_START=XXXXXX",
 
             "webRoot": "${workspaceFolder}"
         }
