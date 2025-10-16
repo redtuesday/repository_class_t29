@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoa</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        fieldset { width: 400px; }
+        label { display: block; margin-top: 8px; }
+        input[type="text"], input[type="email"], input[type="password"] { width: 100%; padding: 6px; box-sizing: border-box; }
+        button { margin-top: 12px; padding: 8px 12px; }
+    </style>
+</head>
+<body>
+    <h2>Cadastro de Pessoa</h2>
+    <form action="conexaoBanco.php" method="post">
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="pesnome">Nome *</label>
+            <input type="text" id="pesnome" name="pesnome" required>
+
+            <label for="pessobrenome">Sobrenome</label>
+            <input type="text" id="pessobrenome" name="pessobrenome">
+
+            <label for="pesemail">E-mail *</label>
+            <input type="email" id="pesemail" name="pesemail" required>
+
+            <label for="pespassword">Senha *</label>
+            <input type="password" id="pespassword" name="pespassword" required>
+
+            <label for="pescidade">Cidade</label>
+            <input type="text" id="pescidade" name="pescidade">
+
+            <label for="pesestado">Estado</label>
+            <input type="text" id="pesestado" name="pesestado">
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
