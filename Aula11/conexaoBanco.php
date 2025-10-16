@@ -13,12 +13,12 @@
 
     // Recebe dados do formulário
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
-        $pesnome = isset($_POST['pesnome']) ? trim($_POST['pesnome']) : '';
+        $pesnome      = isset($_POST['pesnome'])      ? trim($_POST['pesnome'])      : '';
         $pessobrenome = isset($_POST['pessobrenome']) ? trim($_POST['pessobrenome']) : '';
-        $pesemail = isset($_POST['pesemail']) ? trim($_POST['pesemail']) : '';
-        $pespassword = isset($_POST['pespassword']) ? trim($_POST['pespassword']) : '';
-        $pescidade = isset($_POST['pescidade']) ? trim($_POST['pescidade']) : '';
-        $pesestado = isset($_POST['pesestado']) ? trim($_POST['pesestado']) : '';
+        $pesemail     = isset($_POST['pesemail'])     ? trim($_POST['pesemail'])     : '';
+        $pespassword  = isset($_POST['pespassword'])  ? trim($_POST['pespassword'])  : '';
+        $pescidade    = isset($_POST['pescidade'])    ? trim($_POST['pescidade'])    : '';
+        $pesestado    = isset($_POST['pesestado'])    ? trim($_POST['pesestado'])    : '';
 
         // Insere no banco
         $aDadosPessoa = array(
