@@ -7,4 +7,3 @@ $oPessoa->setNome("Samuel");
 $oPessoa->setSobrenome("Wiggers");
 
 echo $oPessoa->getNomeCompleto();
-
