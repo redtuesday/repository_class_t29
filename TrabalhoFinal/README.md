@@ -44,7 +44,7 @@ TrabalhoFinal/
 
 ## 3. Requisitos do Sistema
 
-* **XAMPP** ou outro servidor PHP (>=7.4)
+* **XAMPP**
 * **PostgreSQL** (ex: via pgAdmin 4)
 * Navegador moderno (Chrome, Firefox, Edge)
 
