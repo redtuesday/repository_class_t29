@@ -140,11 +140,11 @@ O formulário exibe todas as perguntas cadastradas no banco. Cada pergunta possu
 
 Cada nota selecionada muda de cor automaticamente:
 
-| Nota | Cor      | Significado  |
-|      |          |              |
-| 0-3  | Vermelho | Insatisfeito |
-| 4-6  | Amarelo  | Neutro       |
-| 7-10 | Verde    | Satisfeito   |
+| Nota | Cor      | Significado        |
+| ---- | -------- | ------------------ |
+| 0-3  | Vermelho | Muito insatisfeito |
+| 4-6  | Amarelo  | Neutro             |
+| 7-10 | Verde    | Satisfeito         |
 
 ---
 
